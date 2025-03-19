@@ -7,28 +7,29 @@ export const PROJECT_SHOWCASE: ProjectShowcaseListItem[] = [
     index: 0,
     title: "Ecommerce Website",
     href: "/projects",
-    tags: ["Nextjs", "Tailwindcss", "Monaco Editor", "Vercel"],
+    tags: ["Nextjs","Typescript","Tailwindcss", "Redux", "Framer motion","ShadCN", "Vercel"],
     image: {
-      LIGHT: "/images/projects/jsontreeLight.webp",
-      DARK: "/images/projects/jsontreeDark.webp",
+      LIGHT: "/images/projects/onlineS_1.png",
+      DARK: "/images/projects/onlineS_1.png",
     },
   },
   {
     index: 1,
-    title: "Many Games",
+    title: "Roboket",
     href: "/projects",
     tags: [
       "Reactjs",
-      "Tailwindcss",
+      "Typescript",
+      "Rsuite",
       "Scss",
-      "Vite",
       "React-router-dom",
       "Redux",
-      "Vercel",
+      "Formik",
+      "Chart.js",
     ],
     image: {
-      LIGHT: "/images/projects/manyGamesLight.webp",
-      DARK: "/images/projects/manyGamesDark.webp",
+      LIGHT: "/images/projects/rob1.png",
+      DARK: "/images/projects/rob1.png",
     },
   },
   {
@@ -45,16 +46,16 @@ export const PROJECT_SHOWCASE: ProjectShowcaseListItem[] = [
 
 export const PROJECTS_CARD: ProjectCardProps[] = [
   {
-    name: "Json tree",
+    name: "Ecommerce Website",
     favicon: "/images/projects/logos/jsontree.ico",
     imageUrl: [
-      "/images/projects/jsontreeLight.webp",
-      "/images/projects/jsontreeDark.webp",
+      "/images/projects/onlineS_1.png",
+      "/images/projects/onlineS_1.png",
     ],
     description:
-      "Visualize JSON data format in form of a tree or graph. Application is made using Nextjs, Tailwindcss and Monaco Editor. Design image can be downloaded from this app.",
-    sourceCodeHref: "https://github.com/BUMBAIYA/jsontree",
-    liveWebsiteHref: "https://jsontree.vercel.app",
+      "Ecommerce website built with Next js and Typescript. This is a simple ecommerce website. For styling I used Tailwind css. For state management I used Redux. For animation and transitions Framer Motion and I used ShadCN UI for beautifully styled, accessible, and customizable UI components.",
+    sourceCodeHref: "https://github.com/ashikfifa/web-ecommerce",
+    liveWebsiteHref: "https://web-ecommerce-rho.vercel.app/",
   },
   {
     name: "Kanban app",
