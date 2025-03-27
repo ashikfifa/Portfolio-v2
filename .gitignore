@@ -7,7 +7,7 @@
 
 # testing
 /coverage
-
+.eslintrc.json
 # next.js
 /.next/
 /out/
