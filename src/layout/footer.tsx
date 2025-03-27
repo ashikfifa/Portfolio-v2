@@ -16,9 +16,7 @@ export default function Footer() {
           target="_blank"
           className="mb-6 cursor-pointer text-center text-2xl font-bold underline sm:text-4xl lg:text-6xl"
         >
-          <span>amitchauhan263871@</span>
-          <br />
-          <span>gmail.com</span>
+          <span>ashik.rabbi95@gmail.com</span>
         </a>
         <div className="flex justify-center">
           <ContactButton />

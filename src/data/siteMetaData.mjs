@@ -13,7 +13,7 @@ export const siteMetadata = {
   twitterImage: "/static/homepage.png",
   socialBanner: "/static/homepage.png",
   email: "amitchauhan263871@gmail.com",
-  github: "https://github.com/BUMBAIYA",
+  github: "https://github.com/ashikfifa",
   twitter: "https://twitter.com/amitcha2638",
   linkedin: "https://www.linkedin.com/in/amitchauhan-dev",
   locale: "en-US",

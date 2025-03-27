@@ -1,36 +1,36 @@
-import { type ExperienceShowcaseListItemProps } from "@/components/experience/experience-showcase-list-item";
+import { type EducationShowcaseListItemProps } from "@/components/experience/experience-showcase-list-item";
 
-export const EDUCATION: ExperienceShowcaseListItemProps[] = [
+export const EDUCATION: EducationShowcaseListItemProps[] = [
   {
-    title: "Bachelor Of Engineering in Electronics and Telecommunication",
+    title: "Bachelor Of Computer Science Engineering",
     organisation: {
-      name: "Rizvi College Of Engineering",
-      href: "https://eng.rizvi.edu.in/",
+      name: "Military Institute of Science and Technology",
+      href: "https://mist.ac.bd/",
     },
-    date: "2019-2023",
-    location: "Bandra, Mumbai",
+    date: "2016-2021",
+    location: "Mirpur, Dhaka",
     description:
       "Relevant courses included Data Structures and Algorithms, Web Design, Cloud Computing, Artificial Neural Network and Database Management.",
   },
   {
-    title: "Higher Secondary School",
+    title: "Higher Secondary School Certificate",
     organisation: {
-      name: "Mithibai College",
-      href: "https://www.mithibai.ac.in/",
+      name: "BAF Shaheen College",
+      href: "https://www.bafsd.edu.bd/",
     },
-    date: "2016-2018",
-    location: "Vile Parle, Mumbai",
+    date: "2013-2014",
+    location: "Tejgaon, Dhaka",
     description:
-      "Completed the course in Electronics Bifocal Science with 68%. Started freelancing making 3D assets for games. Got interested in game development and learned unity and c#",
+      "Completed the course in 2 years. Got interested in web development and learned HTML, CSS",
   },
   {
-    title: "Secondary School Education",
+    title: "Secondary School Certificate",
     organisation: {
-      name: "Holy Family High School",
-      href: "https://holyfamilyandheri.org/",
+      name: "BAF Shaheen College",
+      href: "https://www.bafsd.edu.bd/",
     },
-    date: "2017-2018",
-    location: "Andheri, Mumbai",
+    date: "2001-2012",
+    location: "Tejgaon, Dhaka",
     description:
       "Learned good values,dedication and disciplne. Played district football for 5 years.",
   },

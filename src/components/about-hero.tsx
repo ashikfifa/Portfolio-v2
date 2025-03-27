@@ -5,7 +5,7 @@ import { AnimatePresence } from "framer-motion";
 
 import FadeUp from "@/animation/fade-up";
 import FadeRight from "@/animation/fade-right";
-import heroProfileImg from "@/public/images/heroProfile.png";
+import heroProfileImg from "@/public/images/heroProfile.jpg";
 import DuotoneImage from "./duotone-image";
 
 export default function AboutHero() {
@@ -61,13 +61,13 @@ export default function AboutHero() {
               <Image
                 className="-z-10 h-full w-full bg-cover bg-no-repeat"
                 alt="Indian flag"
-                src="https://flagcdn.com/in.svg"
+                src="https://flagcdn.com/bd.svg"
                 width={15}
                 height={15}
               />
             </div>
             <span className="text-lg font-medium text-foreground">
-              Mumbai, India
+              Dhaka, Bangladesh
             </span>
           </FadeRight>
         </AnimatePresence>

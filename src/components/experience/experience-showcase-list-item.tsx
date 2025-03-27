@@ -46,6 +46,19 @@ export interface ExperienceShowcaseListItemProps {
   date: string;
   location: string;
   description: string;
+  stack: string;
+  url: string
+}
+
+export interface EducationShowcaseListItemProps {
+  title: string;
+  organisation: {
+    name: string;
+    href: string;
+  };
+  date: string;
+  location: string;
+  description: string;
 }
 
 export default function ExperienceShowcaseListItem(
@@ -79,6 +92,9 @@ export default function ExperienceShowcaseListItem(
         </span>
         <p className="text-sm font-medium text-muted-foreground xs:text-base">
           {props.description}
+        </p>
+        <p className="text-sm font-medium text-muted-foreground xs:text-base">
+          {props.stack}
         </p>
       </motion.div>
     </li>
