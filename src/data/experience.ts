@@ -1,6 +1,6 @@
 import { type ExperienceShowcaseListItemProps } from "@/components/experience/experience-showcase-list-item";
 
-export const EXPERIENCE: ExperienceShowcaseListItemProps[] = [
+export const EXPERIENCE: any[] = [
   {
     title: "Software Engineer",
     organisation: {

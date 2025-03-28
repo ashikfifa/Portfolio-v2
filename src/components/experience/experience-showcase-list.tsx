@@ -8,11 +8,11 @@ import ExperienceShowcaseListItem, {
 
 export interface ExperienceShowcaseListProps {
   title: string;
-  details: ExperienceShowcaseListItemProps[];
+  details: any[];
 }
 
 export default function ExperienceShowcaseList(
-  props: ExperienceShowcaseListProps,
+  props: any,
 ) {
   const ref = useRef(null);
   const { scrollYProgress } = useScroll({
@@ -30,7 +30,7 @@ export default function ExperienceShowcaseList(
           className="absolute left-9 top-5 h-full w-[5px] origin-top rounded-lg bg-accent"
         ></motion.div>
         <ul className="ml-4 w-full items-center">
-          {props.details.map((_details, index) => (
+          {props.details.map((_details: any, index: number) => (
             <ExperienceShowcaseListItem key={index} {..._details} />
           ))}
         </ul>

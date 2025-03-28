@@ -1,6 +1,6 @@
 import { type EducationShowcaseListItemProps } from "@/components/experience/experience-showcase-list-item";
 
-export const EDUCATION: EducationShowcaseListItemProps[] = [
+export const EDUCATION: any[] = [
   {
     title: "Bachelor Of Computer Science Engineering",
     organisation: {
