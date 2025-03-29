@@ -107,7 +107,7 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
     description:
       "My personal portfolio website made using Nextjs, tailwindcss and framer motion.",
     sourceCodeHref: "https://github.com/ashikfifa/Wikipedia-search-tool",
-    liveWebsiteHref: "https://wix-headless.netlify.app/",
+    liveWebsiteHref: "https://wikipediasearchtools.netlify.app/",
   },
   {
     name: "Book shop",
@@ -182,7 +182,7 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
     ],
     description:
       "An integrated tool for Mobile recharge. Stack: React, Redux, Typescript, Rsuite. Real-time balance check and recharge offers display.Supports multiple payment gateways for seamless mobile recharges.Customizable flexi-plan options for users based on usage patterns.Notification system for special offers and discounts. ",
-    sourceCodeHref: "https://github.com/ashikfifa/shop-swift",
-    liveWebsiteHref: "https://github.com/ashikfifa/GP-FlexiLoad",
+    sourceCodeHref: "https://github.com/ashikfifa/GP-FlexiLoad",
+    liveWebsiteHref: "https://gp-offer.netlify.app/",
   },
 ];
