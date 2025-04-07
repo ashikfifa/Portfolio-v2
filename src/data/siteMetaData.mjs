@@ -14,7 +14,7 @@ export const siteMetadata = {
   socialBanner: "/static/homepage.png",
   email: "asiquzzaman263871@gmail.com",
   github: "https://github.com/ashikfifa",
-  twitter: "https://twitter.com/amitcha2638",
+  twitter: "https://twitter.com/ashik97",
   linkedin: "https://www.linkedin.com/in/asiquzzaman-dev",
   locale: "en-US",
   googleSiteVerification: "_YJlO90eSoye2AQOhbkRAzNbejzCGiTgAD4RNR3NtHc",
