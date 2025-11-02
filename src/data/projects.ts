@@ -96,6 +96,20 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
     sourceCodeHref: "https://github.com/ashikfifa/Multiple-steps-form",
     liveWebsiteHref: "https://multiple-steps-form-x9mm.vercel.app/",
   },
+
+  {
+    name: "Wir in ungarn (Client project)",
+    favicon: "/images/projects/svg/web.svg",
+    imageUrl: [
+      "/images/projects/wir_ungarn_1.png",
+      "/images/projects/wir_ungarn_2.png",
+    ],
+    description:
+      "Client blog website featuring various post types, games, user authentication, animations, and more.",
+    sourceCodeHref: "https://github.com/ashikfifa/wirin-ungarn",
+    liveWebsiteHref: "https://wirin-ungarn.vercel.app/",
+  },
+
   {
     name: "Wikipedia Search Engine",
     favicon: "/images/projects/svg/wiki.svg",
