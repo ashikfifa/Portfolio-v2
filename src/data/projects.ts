@@ -99,7 +99,7 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
 
   {
     name: "Wir in ungarn (Client project)",
-    favicon: "/images/projects/svg/web.svg",
+    favicon: "/images/projects/svg/dummyWeb.svg",
     imageUrl: [
       "/images/projects/wir_ungarn_1.png",
       "/images/projects/wir_ungarn_2.png",
