@@ -1,10 +1,14 @@
 import { NextSeo } from "next-seo";
+import { useState } from "react";
 
 import ProjectCard from "@/components/projects/project-card";
 import { PROJECTS_CARD } from "@/data/projects";
 import { siteMetadata } from "@/data/siteMetaData.mjs";
 
 export default function Projects() {
+  const [visibleCount, setVisibleCount] = useState(4);
+  const showLoadMore = visibleCount < PROJECTS_CARD.length;
+
   return (
     <>
       <NextSeo
@@ -47,10 +51,20 @@ export default function Projects() {
             </span>
           </div>
           <div className="mt-8 grid grid-cols-1 gap-x-6 gap-y-10 lg:grid-cols-2">
-            {PROJECTS_CARD.map((card, index) => (
+            {PROJECTS_CARD.slice(0, visibleCount).map((card, index) => (
               <ProjectCard key={index} {...card} />
             ))}
           </div>
+          {showLoadMore && (
+            <div className="mt-8 text-center">
+              <button
+                className="px-6 py-2 bg-accent text-background rounded-lg font-semibold hover:bg-accent/90 transition-colors duration-200"
+                onClick={() => setVisibleCount((prev) => Math.min(prev + 4, PROJECTS_CARD.length))}
+              >
+                Load More
+              </button>
+            </div>
+          )}
           <div className="mx-auto mt-16 max-w-5xl text-center text-foreground md:mt-28">
             <span className="text-xl font-bold md:text-2xl">
               I am currently building new projects and learning backend
